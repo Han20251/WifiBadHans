@@ -7,7 +7,7 @@ Hanya untuk pengunna akses root dan menggunakan uSB WIFI ADAPTER YANG BISA monit
 wajib menggunakan linux, termux root, windows dengan virtual box linux
 wajib menggunakan usb wifi adapter yang bisa monitor mode dan paket injection
 
-# Wajib install ini dulu di linux atau termux
+# Wajib install ini dulu di linux atau termux atau windows
 
 linux
 
