@@ -35,6 +35,7 @@ atau
 
 # termux
 
+    untuk termux wajib hpnya di root agar bisa aksed ke monitor mode wifi apdapter
     downlaod nethunter ada toturial di youtube
     lalu pakai sudo yang di atas cara linux
    
