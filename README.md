@@ -12,6 +12,11 @@ Hanya untuk pengunna akses root dan menggunakan uSB WIFI ADAPTER YANG BISA monit
 wajib menggunakan linux, termux root, windows dengan virtual box linux
 wajib menggunakan usb wifi adapter yang bisa monitor mode dan paket injection
 
+kalau kalian penasaran bisa dm di ig atau tiktok ya :
+tiktok : @moonshowyou
+yotube : moonshowyou
+isntagram : rehan_raditi
+
 # Wajib install ini dulu di linux atau termux atau windows
 
 linux
