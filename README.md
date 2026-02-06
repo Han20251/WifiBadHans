@@ -64,7 +64,7 @@ Caranya:
     cek disana driver kamu apa contoh : wlx88827910300a
     ganti ke driver kamu di file Hanswifiprank.sh menggunakan driver kamu di bagian sini
 
-# persiapan Interface atau tempa lokasi gantinya
+# persiapan Interface atau tempat lokasi gantinya
 
     RAW_IFACE="NamaDriverusbkamu"
     echo "[+] Membersihkan proses pengganggu..."
