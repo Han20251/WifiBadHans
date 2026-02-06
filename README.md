@@ -53,6 +53,10 @@ atau
     downlaod virtual box pakai kalihunter os
     lalu pakai sudo yang di atas cara linux
 
+# Vidio Cara Pakai Toolsnya :
+
+IG : https://www.instagram.com/reel/DUa7Be8iWbw/?igsh=MTcxd2NuOGNkZTR6eQ==
+
 # Script ini untuk penyerangan deuthing tapi kita tidak di serang dengan memasukan mac addres hp kamu 
 
 aku buat script ini untuk di sekolah atau publik agar kita bisa terhubung sendiri di wifi orang contoh :
