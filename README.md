@@ -1,7 +1,9 @@
 # WifiBadHans
+alat ini fungsi untuk menyerang wifi dengan deathing tanpa khawatir kita terkena serangan diri sendiri karena di alat ini kita pakai whitelist mac wifi hp. 
+aku menciptakan alat ini karena ribet harus ketik manual aircrack sama mdk4 dan juga aku pakai ini karena disekolah banyak yang pakai aku pengen main game jadi pakai alat ini 
+biar orang lain gak bisa masuk ke wifi atau ditolak jadi aku bisa lancar main game xD.
 
 Hanya untuk pengunna akses root dan menggunakan uSB WIFI ADAPTER YANG BISA monitor mode dan packet injection
-
 wajib menggunakan linux, termux root, windows dengan virtual box linux
 wajib menggunakan usb wifi adapter yang bisa monitor mode dan paket injection
 
