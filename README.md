@@ -46,7 +46,7 @@ by rehan raditia pernanda
 
 gunakan ini hanya untuk edukasi 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!sama satu lagi hall penting banget!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!sama satu lagi hall penting banget!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Sebelum menjalankan ini Kamu harus ubah dulu script untuk driver usb adapter wifinya 
 Caranya:
@@ -59,25 +59,22 @@ ganti ke driver kamu di file Hanswifiprank.sh menggunakan driver kamu di bagian 
 
 # persiapan Interface
 
-1.
-RAW_IFACE="NamaDriverusbkamu"
-echo "[+] Membersihkan proses pengganggu..."
-airmon-ng check kill > /dev/null 2>&1
-rm -f /tmp/hans-scan*
+  RAW_IFACE="NamaDriverusbkamu"
+  echo "[+] Membersihkan proses pengganggu..."
+  airmon-ng check kill > /dev/null 2>&1
+  rm -f /tmp/hans-scan*
 
 kalau ada error karean saat masuk ke monitor mode otomatis jadi wlan0mon tapi untuk itu aku udah fix bug nya tapi kalau gak bisa kamu bisa edit di bagian ini:
 
 
-2.echo "[+] Mengaktifkan Monitor Mode pada $RAW_IFACE..."
-airmon-ng start $RAW_IFACE > /dev/null 2>&1
-MON_IFACE=$(iwconfig 2>&1 | grep "Mode:Monitor" | awk '{print $1}' | head -n 1)
-
-if [ -z "$MON_IFACE" ]; then
-    echo -e "\e[1;31m[!] Gagal masuk ke Monitor Mode.\e[0m"
-    exit 1
-fi
+  echo "[+] Mengaktifkan Monitor Mode pada $RAW_IFACE..."
+  airmon-ng start $RAW_IFACE > /dev/null 2>&1
+      MON_IFACE=$(iwconfig 2>&1 | grep "Mode:Monitor" | awk '{print $1}' | head -n 1)
+  if [ -z "$MON_IFACE" ]; then
+      echo -e "\e[1;31m[!] Gagal masuk ke Monitor Mode.\e[0m"
+      exit 1fi
 
 
 kalau tidak mengerti di bagian ini tanyakan ke Ai atau ke frograming yang handal..........
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
