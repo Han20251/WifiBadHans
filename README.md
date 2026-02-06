@@ -11,7 +11,7 @@ linux
 
      sudo apt update && sudo apt upgrade
      sudo apt install aircrack-ng && sudo apt install mdk4  && sudo apt install git 
-     git clone 
+     git clone https://github.com/Han20251/WifiBadHans
      cd Hanswifiprank.sh
      chmode +x Hanswifiprank.sh
 
@@ -47,18 +47,18 @@ by rehan raditia pernanda
 
 gunakan ini hanya untuk edukasi 
 
-!!!!!!!!!!!!!!!!!!!!sama satu lagi hall penting banget!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!sama satu lagi hall penting banget!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Sebelum menjalankan ini Kamu harus ubah dulu script untuk driver usb adapter wifinya 
 Caranya:
 
-masuk ke terminal lalu ketik
+# masuk ke terminal lalu ketik
 
-# iwconfig
-cek disana driver kamu apa contoh : wlx88827910300a
-ganti ke driver kamu di file Hanswifiprank.sh menggunakan driver kamu di bagian sini
+    iwconfig
+    cek disana driver kamu apa contoh : wlx88827910300a
+    ganti ke driver kamu di file Hanswifiprank.sh menggunakan driver kamu di bagian sini
 
-# persiapan Interface
+# persiapan Interface atau tempa lokasi gantinya
 
     RAW_IFACE="NamaDriverusbkamu"
     echo "[+] Membersihkan proses pengganggu..."
@@ -80,6 +80,6 @@ kalau ada error karean saat masuk ke monitor mode otomatis jadi wlan0mon tapi un
 
 kalau tidak mengerti di bagian ini tanyakan ke Ai atau ke frograming yang handal..........
 
-# Buatan rehan masih pelajar 
+    Buatan rehan masih pelajar 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
