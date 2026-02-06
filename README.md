@@ -24,6 +24,8 @@ linux
 
 atau
 
+    sudo apt update && sudo apt upgrade -y
+    sudo apt install aircrack-ng mdk4 git -y
     downlaod via zip di github 
     lalu extra file nya 
     masuk ke terminal 
