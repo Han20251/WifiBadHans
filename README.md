@@ -56,6 +56,7 @@ atau
 # Vidio Cara Pakai Toolsnya :
 
 IG : https://www.instagram.com/reel/DUa7Be8iWbw/?igsh=MTcxd2NuOGNkZTR6eQ==
+TT : https://vt.tiktok.com/ZSaTXJaaU/
 
 # Script ini untuk penyerangan deuthing tapi kita tidak di serang dengan memasukan mac addres hp kamu 
 
