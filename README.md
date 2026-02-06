@@ -77,6 +77,8 @@ Caranya:
     iwconfig
     cek disana driver kamu apa contoh : wlx88827910300a
     ganti ke driver kamu di file Hanswifiprank.sh menggunakan driver kamu di bagian sini
+    Pakai Nano untuk ubah driver nya 
+    Nano Hanswifiprank.sh
 
 # persiapan Interface atau tempat lokasi gantinya
 
