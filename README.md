@@ -9,33 +9,34 @@ wajib menggunakan usb wifi adapter yang bisa monitor mode dan paket injection
 
 linux
 
-1.sudo apt update && sudo apt upgrade
-2.sudo apt install aircrack-ng && sudo apt install mdk4  && sudo apt install git 
-3.git clone
-4.cd Hanswifiprank.sh
-5.chmode +x Hanswifiprank.sh
+     sudo apt update && sudo apt upgrade
+     sudo apt install aircrack-ng && sudo apt install mdk4  && sudo apt install git 
+     git clone 
+     cd Hanswifiprank.sh
+     chmode +x Hanswifiprank.sh
 
 # atau
 
-downlaod via zip di github 
-lalu extra file nya 
-masuk ke terminal 
-cd (lokasi file)
-chmode +x Hanswifiprank.sh
+    downlaod via zip di github 
+    lalu extra file nya 
+    masuk ke terminal 
+    cd (lokasi file)
+    chmode +x Hanswifiprank.sh
 
 cara aktifkan script
-1.sudo ./Hanswifiprank.sh
+      
+    sudo ./Hanswifiprank.sh
 
 
 termux
 
 downlaod nethunter ada toturial di youtube
-lalu pakai sudo yang di atas
+lalu pakai sudo yang di atas cara linux
    
 windows
 
 downlaod virtual box pakai kalihunter os
-lalu pakai sudo yang di atas
+lalu pakai sudo yang di atas cara linux
 
 # Script ini untuk penyerangan deuthing tapi kita tidak di serang dengan memasukan mac addres hp kamu 
 
@@ -59,22 +60,26 @@ ganti ke driver kamu di file Hanswifiprank.sh menggunakan driver kamu di bagian 
 
 # persiapan Interface
 
-  RAW_IFACE="NamaDriverusbkamu"
-  echo "[+] Membersihkan proses pengganggu..."
-  airmon-ng check kill > /dev/null 2>&1
-  rm -f /tmp/hans-scan*
+    RAW_IFACE="NamaDriverusbkamu"
+    echo "[+] Membersihkan proses pengganggu..."
+    airmon-ng check kill > /dev/null 2>&1
+    rm -f /tmp/hans-scan*
 
 kalau ada error karean saat masuk ke monitor mode otomatis jadi wlan0mon tapi untuk itu aku udah fix bug nya tapi kalau gak bisa kamu bisa edit di bagian ini:
 
 
-  echo "[+] Mengaktifkan Monitor Mode pada $RAW_IFACE..."
-  airmon-ng start $RAW_IFACE > /dev/null 2>&1
-      MON_IFACE=$(iwconfig 2>&1 | grep "Mode:Monitor" | awk '{print $1}' | head -n 1)
-  if [ -z "$MON_IFACE" ]; then
-      echo -e "\e[1;31m[!] Gagal masuk ke Monitor Mode.\e[0m"
-      exit 1fi
+    echo "[+] Mengaktifkan Monitor Mode pada $RAW_IFACE..."
+    airmon-ng start $RAW_IFACE > /dev/null 2>&1
+    MON_IFACE=$(iwconfig 2>&1 | grep "Mode:Monitor" | awk '{print $1}' | head -n 1)
+
+    if [ -z "$MON_IFACE" ]; then
+       echo -e "\e[1;31m[!] Gagal masuk ke Monitor Mode.\e[0m"
+        exit 1
+    fi
 
 
 kalau tidak mengerti di bagian ini tanyakan ke Ai atau ke frograming yang handal..........
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# Buatan rehan masih pelajar 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
