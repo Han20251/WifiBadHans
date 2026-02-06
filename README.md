@@ -30,24 +30,24 @@ cara aktifkan script
 
 termux
 
-downlaod nethunter ada toturial di youtube
-lalu pakai sudo yang di atas cara linux
+    downlaod nethunter ada toturial di youtube
+    lalu pakai sudo yang di atas cara linux
    
 windows
 
-downlaod virtual box pakai kalihunter os
-lalu pakai sudo yang di atas cara linux
+    downlaod virtual box pakai kalihunter os
+    lalu pakai sudo yang di atas cara linux
 
 # Script ini untuk penyerangan deuthing tapi kita tidak di serang dengan memasukan mac addres hp kamu 
 
 aku buat script ini untuk di sekolah atau publik agar kita bisa terhubung sendiri di wifi orang contoh :
 saat kita di sekolah wifi nya banyak dipakai dengan script ini orang lain tidak akan bisa terhubung tapi kita bisa karena kia meng whittlis mac kita
 
-by rehan raditia pernanda
-
 gunakan ini hanya untuk edukasi 
 
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!sama satu lagi hall penting banget!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+     by rehan raditia pernanda
+     
+# !!!!!!!sama satu lagi hall penting banget!!!!!!!!!!!!
 
 Sebelum menjalankan ini Kamu harus ubah dulu script untuk driver usb adapter wifinya 
 Caranya:
@@ -82,4 +82,4 @@ kalau tidak mengerti di bagian ini tanyakan ke Ai atau ke frograming yang handal
 
     Buatan rehan masih pelajar 
 
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
