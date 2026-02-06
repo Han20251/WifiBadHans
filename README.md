@@ -4,7 +4,7 @@ aku menciptakan alat ini karena ribet harus ketik manual aircrack sama mdk4 dan 
 biar orang lain gak bisa masuk ke wifi atau ditolak jadi aku bisa lancar main game xD.
 
 intinya ini bukan Untuk handshake kalau mau handshake pakai wifite buat tahu password ( ingat ini bukan untuk wifi crack tapi
-hanya untuk memtaikan akses orang lain ke wifi tanpa lewat router/wifi IP login )
+hanya untuk mematikan akses orang lain ke wifi tanpa lewat router/wifi IP login )
 
 Hanya untuk pengunna akses root dan menggunakan uSB WIFI ADAPTER YANG BISA monitor mode dan packet injection
 wajib menggunakan linux, termux root, windows dengan virtual box linux
