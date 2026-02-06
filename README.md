@@ -17,7 +17,7 @@ linux
      cd Hanswifiprank.sh
      chmode +x Hanswifiprank.sh
 
-# atau
+atau
 
     downlaod via zip di github 
     lalu extra file nya 
@@ -25,17 +25,17 @@ linux
     cd (lokasi file)
     chmode +x Hanswifiprank.sh
 
-cara aktifkan script
+# cara aktifkan script
       
     sudo ./Hanswifiprank.sh
 
 
-termux
+# termux
 
     downlaod nethunter ada toturial di youtube
     lalu pakai sudo yang di atas cara linux
    
-windows
+# windows
 
     downlaod virtual box pakai kalihunter os
     lalu pakai sudo yang di atas cara linux
