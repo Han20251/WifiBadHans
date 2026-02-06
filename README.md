@@ -14,11 +14,11 @@ wajib menggunakan usb wifi adapter yang bisa monitor mode dan paket injection
 
 linux
 
-     sudo apt update && sudo apt upgrade
-     sudo apt install aircrack-ng && sudo apt install mdk4  && sudo apt install git 
+     sudo apt update && sudo apt upgrade -y
+     sudo apt install aircrack-ng mdk4 git -y
      git clone https://github.com/Han20251/WifiBadHans
-     cd Hanswifiprank.sh
-     chmode +x Hanswifiprank.sh
+     cd WifiBadHans
+    chmod +x Hanswifiprank.sh
 
 atau
 
