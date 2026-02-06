@@ -1,21 +1,21 @@
 # WifiBadHans
 
-# Hanya untuk pengunna akses root dan menggunakan uSB WIFI ADAPTER YANG BISA monitor mode dan packet injection
+Hanya untuk pengunna akses root dan menggunakan uSB WIFI ADAPTER YANG BISA monitor mode dan packet injection
 
-    1. wajib menggunakan linux, termux root, windows dengan virtual box linux
-    2. wajib menggunakan usb wifi adapter yang bisa monitor mode dan paket injection
+wajib menggunakan linux, termux root, windows dengan virtual box linux
+wajib menggunakan usb wifi adapter yang bisa monitor mode dan paket injection
 
 # Wajib install ini dulu di linux atau termux
 
-   1.linux
+linux
 
-sudo apt update && sudo apt upgrade
-sudo apt install aircrack-ng && sudo apt install mdk4  && sudo apt install git 
-git clone
-cd Hanswifiprank.sh
-chmode +x Hanswifiprank.sh
+1.sudo apt update && sudo apt upgrade
+2.sudo apt install aircrack-ng && sudo apt install mdk4  && sudo apt install git 
+3.git clone
+4.cd Hanswifiprank.sh
+5.chmode +x Hanswifiprank.sh
 
-    or
+# atau
 
 downlaod via zip di github 
 lalu extra file nya 
@@ -24,15 +24,15 @@ cd (lokasi file)
 chmode +x Hanswifiprank.sh
 
 cara aktifkan script
-sudo ./Hanswifiprank.sh
+1.sudo ./Hanswifiprank.sh
 
 
-  2.termux
+termux
 
 downlaod nethunter ada toturial di youtube
 lalu pakai sudo yang di atas
    
-   3.windows
+windows
 
 downlaod virtual box pakai kalihunter os
 lalu pakai sudo yang di atas
@@ -53,11 +53,13 @@ Caranya:
 
 masuk ke terminal lalu ketik
 
-iwconfig
+# iwconfig
 cek disana driver kamu apa contoh : wlx88827910300a
 ganti ke driver kamu di file Hanswifiprank.sh menggunakan driver kamu di bagian sini
 
 # persiapan Interface
+
+1.
 RAW_IFACE="NamaDriverusbkamu"
 echo "[+] Membersihkan proses pengganggu..."
 airmon-ng check kill > /dev/null 2>&1
@@ -66,7 +68,7 @@ rm -f /tmp/hans-scan*
 kalau ada error karean saat masuk ke monitor mode otomatis jadi wlan0mon tapi untuk itu aku udah fix bug nya tapi kalau gak bisa kamu bisa edit di bagian ini:
 
 
-echo "[+] Mengaktifkan Monitor Mode pada $RAW_IFACE..."
+2.echo "[+] Mengaktifkan Monitor Mode pada $RAW_IFACE..."
 airmon-ng start $RAW_IFACE > /dev/null 2>&1
 MON_IFACE=$(iwconfig 2>&1 | grep "Mode:Monitor" | awk '{print $1}' | head -n 1)
 
