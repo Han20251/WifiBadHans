@@ -47,7 +47,7 @@ atau
 # Script ini untuk penyerangan deuthing tapi kita tidak di serang dengan memasukan mac addres hp kamu 
 
 aku buat script ini untuk di sekolah atau publik agar kita bisa terhubung sendiri di wifi orang contoh :
-saat kita di sekolah wifi nya banyak dipakai dengan script ini orang lain tidak akan bisa terhubung tapi kita bisa karena kia meng whittlis mac kita
+saat kita di sekolah wifi nya banyak dipakai dengan script ini orang lain tidak akan bisa terhubung tapi kita bisa karena kita meng whitelist mac kita
 
 gunakan ini hanya untuk edukasi 
 
@@ -71,7 +71,7 @@ Caranya:
     airmon-ng check kill > /dev/null 2>&1
     rm -f /tmp/hans-scan*
 
-kalau ada error karean saat masuk ke monitor mode otomatis jadi wlan0mon tapi untuk itu aku udah fix bug nya tapi kalau gak bisa kamu bisa edit di bagian ini:
+kalau ada error karena saat masuk ke monitor mode otomatis jadi wlan0mon tapi untuk itu aku udah fix bug nya tapi kalau gak bisa kamu bisa edit di bagian ini:
 
 
     echo "[+] Mengaktifkan Monitor Mode pada $RAW_IFACE..."
