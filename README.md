@@ -18,7 +18,7 @@ linux
      sudo apt install aircrack-ng mdk4 git -y
      git clone https://github.com/Han20251/WifiBadHans
      cd WifiBadHans
-    chmod +x Hanswifiprank.sh
+     chmod +x Hanswifiprank.sh
 
 atau
 
@@ -26,12 +26,11 @@ atau
     lalu extra file nya 
     masuk ke terminal 
     cd (lokasi file)
-    chmode +x Hanswifiprank.sh
+    chmod +x Hanswifiprank.sh
 
 # cara aktifkan script
       
     sudo ./Hanswifiprank.sh
-
 
 # termux
 
